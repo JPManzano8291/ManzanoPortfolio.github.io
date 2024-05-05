@@ -1502,10 +1502,10 @@
     }
 
     .me {
-        height: 300px;
-        margin-left: 100px;
+        height: 500px;
+        margin-left: 30px;
         margin-bottom: 30px;
-        margin-top: -100px;
+        margin-top: -500px;
         align-items: center;
         justify-content: center;
         border-radius: 20px;
@@ -1530,7 +1530,7 @@
     }
     
     .home-content ul {
-        font-size: 15px;
+        font-size: 25px;
         margin: 20px 0 40px;
     }
     
@@ -1538,9 +1538,9 @@
         position: relative;
         display: flex;
         justify-content: space-between;
-        width: 345px;
-        height: 50px;
-        margin-left: 45px;
+        width: 390px;
+        height: 70px;
+        margin-left: 20px;
     }
     
     .btn-box a {
@@ -1548,13 +1548,14 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 150px;
+        width: 180px;
         height: 100%;
         background: #00abf0;
         border: 2px solid #00abf0;
         border-radius: 8px;
         color: #081b29;
         text-decoration: none;
+        font-size: 20px;
         font-weight: 600;
         letter-spacing: 1px;
         z-index: 1;
@@ -1564,11 +1565,11 @@
     
     .home-sci {
         position: absolute;
-        bottom: 40px;
-        width: 300px;
+        bottom: 250px;
+        width: 500px;
         display: flex;
         justify-content: space-between;
-        margin-left: 70px
+        margin-left: -60px;
     }
     
     .home-sci a {
@@ -1576,16 +1577,17 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
         background: transparent;
         border: 2px solid #00abf0;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 50px;
         color: #00abf0;
         text-decoration: none;
         z-index: 1;
         overflow: hidden;
+        margin-left: 30px;
     }
 
     .welcome {
@@ -1609,14 +1611,18 @@
     }
 
     .downCV {
-        margin: 20%;
-        width: 150px;
-        height: 50px;
+        margin: 10% 37%;
+        padding-top: 20px;
+        width: 200px;
+        height: 80px;
         background: #00abf0;
         border: 2px solid #00abf0;
         border-radius: 8px;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 25px;
+        color: #000;
+        align-items: center;
+        justify-content: center;
     }
 
     .aboutMe {
@@ -1630,13 +1636,13 @@
     }
 
     #aboutmefont {
-        font-size: 20px;
+        font-size: 30px;
         text-align: justify;
     }
 
     #mePic {
-        width: 60%;
-        height: 70%;
+        width: 80%;
+        height: 50%;
         margin-bottom: 120px;
     }
 
@@ -1654,12 +1660,12 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
         background: transparent;
         border: 2px solid #00abf0;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 50px;
         color: #00abf0;
         text-decoration: none;
         z-index: 1;
@@ -1675,12 +1681,12 @@
 
     .list {
         text-align: justify;
-        font-size: 20px;
-        margin-left: 35%;
+        font-size: 30px;
+        margin-left: 30%;
     }
 
     .description {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .title {
@@ -1820,15 +1826,16 @@
         padding: 50% 10%;
         text-align: center;
         align-items: center;
+        font-size: 30px;
       }
 
       .btnResume {
         position: relative;
         display: flex;
         width: 60%;
-        height: 50px;
+        height: 70px;
         margin-top: 50px;
-        margin-left: 42%;
+        margin-left: 40%;
       }
 
       .btnResume a {
@@ -1836,7 +1843,7 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 150px;
+        width: 200px;
         height: 100%;
         background: #00abf0;
         border: 2px solid #00abf0;
@@ -2073,7 +2080,7 @@
     .home-sci {
         position: absolute;
         bottom: 100px;
-        width: 300px;
+        width: 400px;
         display: flex;
         justify-content: space-between;
     }
@@ -2096,12 +2103,12 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 80px;
         background: transparent;
         border: 2px solid #00abf0;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 30px;
         color: #00abf0;
         text-decoration: none;
         z-index: 1;
@@ -2187,8 +2194,9 @@
 
     .downCV {
         margin: 10% 42%;
+        padding: 0;
         width: 250px;
-        height: 60px;
+        height: 70px;
     }
     
     .downCV::before {
@@ -2238,6 +2246,10 @@
         z-index: -1;
         transition: .5s;
     }
+
+    #mePic {
+        height: 70%;
+    }
     
     .downCV a:hover::before {
         width: 100%;
@@ -2247,6 +2259,7 @@
     #aboutmefont {
         width: 80%;
         margin-left: 10%;
+        font-size: 20px;
     }
 
     #mePic {
@@ -2258,8 +2271,91 @@
         margin-left: 35%;
     }
 
+    .home-sciTwo::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #081b29;
+        animation: showRight 1s ease forwards;
+        animation-delay: 2.5s;
+        z-index: 2;
+    }
+    
+    .home-sciTwo a {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 80px;
+        background: transparent;
+        border: 2px solid #00abf0;
+        border-radius: 50%;
+        font-size: 40px;
+        color: #00abf0;
+        text-decoration: none;
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+    .home-sciTwo a::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #00abf0;
+        z-index: -1;
+        transition: .5s;
+    }
+    
+    .home-sciTwo a:hover {
+        color: #081b29;
+    }
+    
+    .home-sciTwo a:hover::before {
+        width: 100%;
+    }
+    
+    .home-imgHover {
+        position: absolute;
+        top: 0;
+        right: 180px;
+        width: 650px;
+        height: 100%;
+        background: transparent;
+        transition: 1s;
+    }
+    
+    .home-imgHover:hover {
+        background: #081b29;
+        opacity: .8;
+    }
+    
+    .home-imgHover::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #081b29;
+        animation: showRight 1s ease forwards;
+        animation-delay: 3s;
+        z-index: 100;
+    }
+
     .list {
-        margin-left: 42%;
+        margin-left: 43%;
+        font-size: 20px;
+    }
+
+    #desc {
+        font-size: 20px;
     }
 
     .interest {
